@@ -34,22 +34,43 @@ namespace OurDotnetApp
 
             // BELOW WORKS
 
-            // var numberOfCupsOfCoffee = 0;
-            // var fullName = "Patricia Amheiser";
-            // DayOfWeek currentDay = DateTime.Today.DayOfWeek;
-            // Console.WriteLine("My name is " + fullName + "I have had " + numberOfCupsOfCoffee + "cups of coffee " + currentDay + ".");
+            var numberOfCupsOfCoffee = 0;
+            var fullName = "Patricia Amheiser ";
+            DayOfWeek currentDay = DateTime.Today.DayOfWeek;
+            Console.WriteLine("My name is " + fullName + "I have had " + numberOfCupsOfCoffee + " cups of coffee " + currentDay + ".");
 
-            Console.Write("What is your name? ");
-            var name = Console.ReadLine();
-            var greeting = $"It's a pleasure to meet you, {name}";
-            Console.WriteLine(greeting);
+            // Console.Write("What is your name? ");
+            // var name = Console.ReadLine();
 
-            Console.Write("What color is your hair? ");
-            var hairColor = Console.ReadLine();
-            var compliment = $"That's a pretty shade of {hairColor}, {name}, it suits you!";
-            Console.WriteLine(compliment);
-
+            // if (name == "Alice")
+            // {
+            //     Console.WriteLine("Hey Alice, how do you want your tofu done today? ");
+            // }
+            // else
+            // // {
+            // var greeting = $"It's a pleasure to meet you, {name}";
+            // Console.WriteLine(greeting);
+            // }
             // START new here ----------------//----------------
+            // Console.WriteLine("Type any number between 1 and 1000. ");
+            // var firstNumberAsAString = Console.ReadLine();
+            // Console.WriteLine("Type a different number between 1 and 250. ");
+            // var secondNumberAsAString = Console.ReadLine();
+
+            // var firstOperand = double.Parse(firstNumberAsAString);
+            // var secondOperand = double.Parse(secondNumberAsAString);
+
+
+            // var sum = (firstOperand + secondOperand);
+            // Console.WriteLine(sum);
+            // var difference = (firstOperand - secondOperand);
+            // Console.WriteLine(difference);
+            // var product = (firstOperand * secondOperand);
+            // Console.WriteLine(product);
+            // var quotient = (firstOperand / secondOperand);
+            // Console.WriteLine(quotient);
+            // var remainder = (firstOperand % secondOperand);
+            // Console.WriteLine(remainder);
 
         }
 
