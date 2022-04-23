@@ -42,24 +42,24 @@ namespace OurDotnetApp
             Console.Write("What is your name? ");
             var name = Console.ReadLine();
 
-            // if (name == "Alice")
-            // {
-            //     Console.WriteLine("Hey Alice, how do you want your tofu done today? ");
-            // }
-            // else
-            // // {
-            var greeting = $"It's a pleasure to meet you, {name}";
-            Console.WriteLine(greeting);
-            Console.Write("What color is your hair? ");
-            var hairColor = Console.ReadLine();
-            var compliment = $"That's a pretty shade of {hairColor} {name}, it really suits you.";
-            Console.WriteLine(compliment);
+            if (name == "Alice")
+            {
+                Console.WriteLine("Hey Alice, how do you want your tofu done today? ");
+            }
+            else
+            {
+                var greeting = $"It's a pleasure to meet you, {name}";
+                Console.WriteLine(greeting);
+                Console.Write("What color is your hair? ");
+                var hairColor = Console.ReadLine();
+                var compliment = $"That's a pretty shade of {hairColor} {name}, it really suits you.";
+                Console.WriteLine(compliment);
 
-            // }
+            }
             // START new here ----------------//----------------
-            Console.WriteLine("Type any number between 1 and 1000. ");
+            Console.Write("Type any number. ");
             var firstNumberAsAString = Console.ReadLine();
-            Console.WriteLine("Type a different number between 1 and 250. ");
+            Console.Write("Type a different number. ");
             var secondNumberAsAString = Console.ReadLine();
 
             var firstOperand = double.Parse(firstNumberAsAString);
