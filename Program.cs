@@ -39,8 +39,8 @@ namespace OurDotnetApp
             DayOfWeek currentDay = DateTime.Today.DayOfWeek;
             Console.WriteLine("My name is " + fullName + "I have had " + numberOfCupsOfCoffee + " cups of coffee " + currentDay + ".");
 
-            // Console.Write("What is your name? ");
-            // var name = Console.ReadLine();
+            Console.Write("What is your name? ");
+            var name = Console.ReadLine();
 
             // if (name == "Alice")
             // {
@@ -48,8 +48,13 @@ namespace OurDotnetApp
             // }
             // else
             // // {
-            // var greeting = $"It's a pleasure to meet you, {name}";
-            // Console.WriteLine(greeting);
+            var greeting = $"It's a pleasure to meet you, {name}";
+            Console.WriteLine(greeting);
+            Console.Write("What color is your hair? ");
+            var hairColor = Console.ReadLine();
+            var compliment = $"That's a pretty shade of {hairColor} {name}, it really suits you.";
+            Console.WriteLine(compliment);
+
             // }
             // START new here ----------------//----------------
             // Console.WriteLine("Type any number between 1 and 1000. ");
