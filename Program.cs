@@ -57,25 +57,25 @@ namespace OurDotnetApp
 
             // }
             // START new here ----------------//----------------
-            // Console.WriteLine("Type any number between 1 and 1000. ");
-            // var firstNumberAsAString = Console.ReadLine();
-            // Console.WriteLine("Type a different number between 1 and 250. ");
-            // var secondNumberAsAString = Console.ReadLine();
+            Console.WriteLine("Type any number between 1 and 1000. ");
+            var firstNumberAsAString = Console.ReadLine();
+            Console.WriteLine("Type a different number between 1 and 250. ");
+            var secondNumberAsAString = Console.ReadLine();
 
-            // var firstOperand = double.Parse(firstNumberAsAString);
-            // var secondOperand = double.Parse(secondNumberAsAString);
+            var firstOperand = double.Parse(firstNumberAsAString);
+            var secondOperand = double.Parse(secondNumberAsAString);
 
 
-            // var sum = (firstOperand + secondOperand);
-            // Console.WriteLine(sum);
-            // var difference = (firstOperand - secondOperand);
-            // Console.WriteLine(difference);
-            // var product = (firstOperand * secondOperand);
-            // Console.WriteLine(product);
-            // var quotient = (firstOperand / secondOperand);
-            // Console.WriteLine(quotient);
-            // var remainder = (firstOperand % secondOperand);
-            // Console.WriteLine(remainder);
+            var sum = (firstOperand + secondOperand);
+            Console.WriteLine(sum);
+            var difference = (firstOperand - secondOperand);
+            Console.WriteLine(difference);
+            var product = (firstOperand * secondOperand);
+            Console.WriteLine(product);
+            var quotient = (firstOperand / secondOperand);
+            Console.WriteLine(quotient);
+            var remainder = (firstOperand % secondOperand);
+            Console.WriteLine(remainder);
 
         }
 
